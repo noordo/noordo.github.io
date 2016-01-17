@@ -1,0 +1,11 @@
+Options -Indexes
+RewriteEngine On
+RewriteBase /
+RewriteRule ^ico/(.*)$    http://ico.gmaths.net/$1
+RewriteRule ^accueil$    http://noordover.fr/#section1  [NE,L]
+RewriteRule ^forum$    http://noordover.fr/#section2  [NE,L]
+RewriteRule ^isn-icn$    http://noordover.fr/#section3  [NE,L]
+RewriteRule ^maths$    http://noordover.fr/#section4  [NE,L]
+RewriteRule ^contact$    http://noordover.fr/#section5  [NE,L]
+
+# Explication sur les flags : https://httpd.apache.org/docs/2.4/fr/rewrite/flags.html
