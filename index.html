@@ -1,93 +1,79 @@
-<!DOCTYPE html>
-<html lang="fr" class="no-js">
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-	<title>isn.noordover.fr</title>
-	<meta name="description" content="isn.noordover.fr : projets ISN" />
-	<meta name="keywords" content="noordover, noordo, ISN" />
-	<meta name="author" content="GM" />
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>ISN - Noordo</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <script src="javascripts/messcripts.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-	<link rel="stylesheet" type="text/css" href="css/default.css" />
-	<link rel="stylesheet" type="text/css" href="css/themes/noordo/default.css" />
-	<script src="js/modernizr.custom.js"></script>
-</head>
-<body class="section1-visible">
-	
-	<header class="headermobile mobile col-12">
-		<button id="releaseMenu" ></button>
-		<h1>isn.noordover.fr</h1>
-		
-		<nav class="menu menumobile">	
-			<a class="target-section1 current" href="#section1">Accueil</a>
-			<a class="target-section2" href="#section2">Projets 15/16</a>
-			<a class="target-section3" href="#section3">?</a>
-		</nav>
-	</header>	
-	
-	<div id="container" class="col-12">
-	
-		<header class="headerstandard">
-			<div class="headerstandard-inner">
-				<h1 class="font-effect-3d-float">isn.noordover.fr</h1>
-				<nav class="menu menustandard">
-                    <a class="target-section1 current" href="#section1">Accueil</a>
-                    <a class="target-section2" href="#section2">Projets 15/16</a>
-                    <a class="target-section3" href="#section3">Liens utiles</a>
-				</nav>
-			</div>
-		</header>
-		
-		<div class="main" id="main">
-			
-			<section id="section1" class='home'>
-                <div id='bg'></div>
-                <h2 id='logo'>Lycée du Noordover</h2>
-            </section>
-			
-			<section id="section2">
-                <h2>Projets 15/16</h2>
-            </section>
-            
-			<section id="section3">
-                <h2>Liens utiles</h2>
-            </section>
-            
-		</div>
-		
-		<nav class="menu">
-			<a title="" href="#section1">
-				<div class="scroll"></div>
-			</a>
-		</nav>
-		
-	</div>
+  </head>
+  <body>
 
+      <header>
+        <h1>ISN-Noordo</h1>
+        <p>site relatif à l'enseignement ISN.</p>
+      </header>
 
-    <footer>
-        <div id="validator">
-            <p><a href="http://validator.w3.org/check?uri=referer">
-                      <img src="/ico/w3chtml5.png" width="88" height="31" alt="HTML5 Valide !" />
-                </a>
-                <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                      <img src="/ico/vcss.gif" width="88" height="31" alt="CSS Valide !" />
-                </a>
-            </p>
+      <div id="banner">
+        <span id="logo"></span>
+
+        <div class="fork">
+          <a href="http://isn.noordover.fr" class="button VD"><strong>VO</strong></a>
         </div>
-    </footer>
-	
-	<!-- Jquery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-	<script src="js/classie.js"></script>
-	<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
-	<script src="js/waypoints.min.js"></script>
-	<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
-	<script src="js/jquery.debouncedresize.js"></script>
-	
-	<!-- Gestion générale -->
-	<script src="js/custom.js"></script>
+        <div class="downloads">
+          <span>Fichiers sur GitHub :</span>
+          <ul>
+            <li><a href="https://github.com/noordo/ISN_3x1_Projet_FRACTALES" class="button VO newonglet">VO</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
 
-</body>
+      <nav>
+        <ul></ul>
+      </nav>
+    <div class="wrapper">
+      <section>
+        <h1>Projets</h1>
+        <p><a href='http://isnnoordo.github.io/ISN_3x1_Projet_FRACTALES' class='projet'>
+                <img src='images/P1_repere_visuel_240x137.jpg' alt='P1' />
+           </a>
+           <a href='http://isnnoordo.github.io/ISN_3x2_Projet_MASTERMIND2' class='projet'>
+                <img src='images/P2_repere_visuel_240x137.jpg' alt='P2' />
+           </a>
+           <a href='http://isnnoordo.github.io/ISN_3x3_Projet_DIJKSTRA' class='projet'>
+                <img src='images/P3_repere_visuel_240x137.jpg' alt='P3' />
+           </a>
+           <a href='http://isnnoordo.github.io/ISN_3x4_Projet_FAVICON' class='projet'>
+                <img src='images/P4_repere_visuel_240x137.jpg' alt='P4' />
+           </a>
+        </p>
+      </section>
+      <section>
+        <h1>HTML/CSS</h1>
+        <p></p>
+      </section>
+      <section>
+        <h1>Javascript</h1>
+        <p></p>
+      </section>
+      <section>
+        <h1>Outils</h1>
+        <p></p>
+      </section>
+      <footer>
+        <p class='small'>Page maintenue par <a href="https://github.com/noordo">noordo</a>.<br />
+                         Page hébergée sur GitHub Pages.</p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
 </html>
