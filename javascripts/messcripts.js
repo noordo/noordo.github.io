@@ -6,7 +6,7 @@ $(document).ready(function(){
     });
     
     switch(window.location.hostname) {
-        case "isn.noordover.fr":
+        case "proj.isn.noordover.fr":
             $(".VO").css("display","inline-block");
             $(".VD").css("display","none");
             break;  
